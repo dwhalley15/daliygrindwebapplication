@@ -5,7 +5,6 @@ The DailyGrind Web Application is a simple productivity tool that helps you orga
 ## Features
 
 - Task Management: Create, update, and delete tasks easily.
-- Priority Setting: Assign priority levels to your tasks to prioritize your work.
 - Time Tracking: Track the time spent on each task to analyze productivity.
 - Notifications: Receive reminders and notifications for upcoming tasks.
 - User Authentication: Securely register, log in, and manage your account.
