@@ -48,11 +48,11 @@ npm start
 
 Open http://localhost:3000 to view the DailyGrind Web Application.
 
-##Contributing
+## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request. Make sure to follow the project's code of conduct.
 
-##License
+## License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the terms.
 
