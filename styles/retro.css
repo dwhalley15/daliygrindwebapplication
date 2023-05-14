@@ -1,0 +1,175 @@
+body{
+  background-image: linear-gradient(to bottom right, #1e002a, #3b0054, #680094);
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #ff00aa,
+      0 0 82px #ff00aa,
+      0 0 92px #ff00aa,
+      0 0 102px #ff00aa,
+      0 0 151px #ff00aa;
+}
+  font-family: "Vibur", sans-serif;
+}
+
+#dailyGrindLogo{
+  background-image: url("../images/dailygrindlogowhite.png");
+  width: 440px;
+  height: 440px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#loginIcon{
+  background-image: url("../images/loginwhite.png");
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#signupIcon{
+  background-image: url("../images/signupwhite.png");
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#updateIcon{
+  background-image: url("../images/updatewhite.png");
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#upgradeIcon{
+  background-image: url("../images/upgradewhite.png");
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#activityIcon{
+  background-image: url("../images/createactivitywhite.png");
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#passwordIcon{
+  background-image: url("../images/passwordwhite.png");
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#deleteIcon{
+  background-image: url("../images/deletewhite.png");
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#deleteIconSmall{
+  background-image: url("../images/deletewhite.png");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#updateIconSmall{
+  background-image: url("../images/updatewhite.png");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#yesIcon{
+  background-image: url("../images/yeswhite.png");
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#yesIconSmall{
+  background-image: url("../images/yeswhite.png");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#noIcon{
+  background-image: url("../images/nowhite.png");
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#noIconSmall{
+  background-image: url("../images/nowhite.png");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#addFriendIcon{
+  background-image: url("../images/addfriendwhite.png");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#dailyGrindWords{
+  background-image: url("../images/dailygrindwordswhite.png");
+  width: 440px;
+  height: 140px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#avatar{
+  background-image: url("../images/avatarretro.png");
+  width: 440px;
+  height: 140px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.active{
+  opacity: 1 !important;
+  border-bottom: 1px solid #ff00aa;
+}
+
+.navItem{
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #ff00aa,
+      0 0 82px #ff00aa,
+      0 0 92px #ff00aa,
+      0 0 102px #ff00aa,
+      0 0 151px #ff00aa;
+  opacity: 0.5;
+}
+
+
