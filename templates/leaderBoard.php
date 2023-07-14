@@ -38,7 +38,7 @@ echo '<script type="text/javascript" src="https://www.gstatic.com/charts/loader.
             }
         </script>
 
-        <div id="chart_div" style="width: 800px; height: 400px; margin: 20px auto;"></div>
+        <div id="chart_div" style="width: 400px; height: 400px; margin: 20px auto;"></div>
         '
 
 ?>
