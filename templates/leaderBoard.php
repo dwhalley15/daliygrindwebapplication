@@ -6,7 +6,7 @@
   $userScore = $row[0];
   $data = array();
   $data[] = ['Friend', 'Score'];
-  $data[] = [(string)$userName, (int)$userScore];
+  $data[] = [(string)"You", (int)$userScore];
   $query = mysqli_query($conn, 
             "SELECT u.user_id, u.full_name, u.score
             FROM app_user u
@@ -16,8 +16,9 @@
 if($query){
   while($row = mysqli_fetch_assoc($query)){
     $friendName = $row['full_name'];
+    $firstName = strtok($friendName, ' ');
     $friendScore = $row['score'];
-    $data[] = [(string)$friendName, (int)$friendScore];
+    $data[] = [(string)$firstName, (int)$friendScore];
   }
 }
 $encodedData = json_encode($data);
@@ -37,7 +38,7 @@ echo '<script type="text/javascript" src="https://www.gstatic.com/charts/loader.
             }
         </script>
 
-        <div id="chart_div" style="width: 500px; height: 500px;"></div>
+        <div id="chart_div" style="width: 800px; height: 400px; margin: 20px auto;"></div>
         '
 
 ?>

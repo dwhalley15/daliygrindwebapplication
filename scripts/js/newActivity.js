@@ -15,6 +15,10 @@ function validation(){
   let endDateFormat = new Date(endDate);
   let currentDate = new Date();
 
+  startDateFormat.setHours(0, 0, 0, 0);
+  endDateFormat.setHours(0, 0, 0, 0);
+  currentDate.setHours(0, 0, 0, 0);
+
   if(name == "" || description == "" || startDate == "" || endDate == ""){
     showError();
   }
