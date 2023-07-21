@@ -8,7 +8,7 @@ themes.addEventListener('input', function(){
 
 function validation(){
   let fullName = document.forms["profileUpdateForm"]["fullName"].value;
-  let nameFormat = /^[a-zA-Z]+ [a-zA-Z]+$/;
+  let nameFormat = /^[a-zA-Z]+(?: [a-zA-Z-]+)+$/;
   if(fullName == ""){
     showError();
   }

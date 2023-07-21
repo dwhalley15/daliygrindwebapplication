@@ -5,7 +5,7 @@ function validation(){
   let email = document.forms["signup"]["email"].value;
   let pass = document.forms["signup"]["password"].value;
   let passConfirm = document.forms["signup"]["passwordConfirm"].value;
-  let nameFormat = /^[a-zA-Z]+(?: [a-zA-Z]+)+$/;
+  let nameFormat = /^[a-zA-Z]+(?: [a-zA-Z-]+)+$/;
   var emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   var passFormat = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$/;
   
