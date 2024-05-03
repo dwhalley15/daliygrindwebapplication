@@ -1,10 +1,10 @@
 <?php
     //Connects to the database.
     function connect(){
-      $username = "s5416741";
-      $password = "UwzgJi9mJAKXYNpeFqukwCpuRfpLrJT4";
-      $host = "db.bucomputing.uk";
-      $port = 6612;
+      $username = "your_username_here";
+      $password = "your_password_here";
+      $host = "your_hostname_here";
+      $port = 0000;
       $database = $username;
       $conn = new mysqli();
       $conn->ssl_set(NULL, NULL, NULL, '/public_html/sys_tests', NULL);
