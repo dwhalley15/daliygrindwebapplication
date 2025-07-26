@@ -1,0 +1,11 @@
+[workflows]
+runButton = "Start PHP Server"
+
+[[workflows.workflow]]
+name = "Start PHP Server"
+author = 12193448
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "php -S 0.0.0.0:5000 -t ."
