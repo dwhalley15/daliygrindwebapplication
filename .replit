@@ -1,11 +1,14 @@
-[workflows]
-runButton = "Start PHP Server"
+run = "php -S 0.0.0.0:8000 -t ."
 
-[[workflows.workflow]]
-name = "Start PHP Server"
-author = 12193448
-mode = "sequential"
+entrypoint = "index.php"
 
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "php -S 0.0.0.0:5000 -t ."
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["php", "-S", "0.0.0.0:8000", "-t", "."]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 8000
+externalPort = 80
